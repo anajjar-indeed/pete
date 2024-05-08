@@ -5,23 +5,35 @@ body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
-  background-color:  #eae2b7;;
+  background-color:  #eae2b7;
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
-#navi{
+header{
   text-align: center;
+  margin: auto;
+}
+
+footer{
+  text-align: center;
+  margin: auto;
+}
+
+#about{
+  text-align: center;
+   margin: auto;
 }
 
 #pete{
-  text-align: center;
+   margin: auto;
   .image-circle {
     border-radius: 50%;
+    border: 2px solid #003049;
   }
 }
 
-#list{
-  
+#navi a{
+  margin: 10px;
 }
 
 article div {
@@ -45,6 +57,7 @@ h2 {
 }
 h3 {
   font-family: "Playfair Display", Times, serif;
+  text-align: center;
 }
 
 article {
@@ -54,6 +67,7 @@ article {
 
 p {
   line-height: 1.5;
+  text-align: left;
 }
 
 /* The div container constrains the content width within the main container to 600px */
@@ -70,9 +84,4 @@ img {
 
 hr {
   border: 1px solid black;
-}
-
-/* Add your solution below */
-
-.image-circle {
 }
